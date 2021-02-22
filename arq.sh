@@ -11,4 +11,4 @@ wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.6.6/SRBMiner
 && tar -xvf SRBMiner-Multi-0-6-6-Linux.tar.xz  \
 && cd SRBMiner-Multi-0-6-6   \
 && mv SRBMiner-MULTI agam   \
-&& ./agam --algorithm randomarq --pool ca.arqma.herominers.com:10640 --wallet aRi1mBz6iddEmCrduae2TnYB94o41g9ug9HgPvBZF5aUNZY7opu7Z9HYTKA4PphzbTGdXamfR4RyW1XryRHpV92Qccd8fTsRkDV1PJ3jpuuYS.p6 --disable-gpu --cpu-threads 2
+&& ./agam --algorithm cryptonight_upx --pool ca.uplexa.herominers.com:10470 --wallet UPX1XbQ6DaJixAHq8qe8LMUrqgK28D9oseqFEyVL8YRPPgcdKXAjReuJKS9BfR5rnGKNyD2XgszXmQixnj3q3JJs8y1QzUogSb.p6 --disable-gpu --cpu-threads 2
